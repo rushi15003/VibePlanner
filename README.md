@@ -1,4 +1,4 @@
-# Vibe Planner MCP Server
+# 🌟 Vibe Planner MCP Server
 
 This is a stateless MCP server built with **FastMCP** that generates mood-based recommendations for:
 - Spotify playlists
@@ -33,17 +33,17 @@ Generates vibe-based recommendations.
 ---
 
 # Setup
-## 1 Create a virtual environment:
+### 1 Create a virtual environment:
 ```bash
 python -m venv venv
 venv\Scripts\activate
 ```
-## 2 Install dependencies:
+### 2 Install dependencies:
 ```bash
 pip install -r requirements.txt
 ```
 
-## 3 Create .env file:
+### 3 Create .env file:
 
 ```bash
 AUTH_TOKEN=your_auth_token_here
