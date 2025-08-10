@@ -61,9 +61,9 @@ python server.py
 
 # 🧪 Testing
 - Postman
-
+```
 curl -X POST "http://localhost:8086/tools/vibe_planner" ^
      -H "Authorization: Bearer your_auth_token_here" ^
      -H "Content-Type: application/json" ^
      -d "{\"vibe_description\": \"cozy rainy day\", \"location\": \"Pune, India\"}"
-
+```
