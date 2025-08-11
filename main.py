@@ -66,7 +66,10 @@ mcp = FastMCP(
 @mcp.tool
 async def validate() -> str:
     return MY_NUMBER
-
+@mcp.tool
+async def about() -> dict:
+    return {"name": "VibePlanner", "description": "Let Puch AI plan your day by giving recommendations for music, books, movies, recipes, nearby cafes, etc by just your mood"}
+    
 # ===== helper: spotify client creds (async) =====
 async def fetch_spotify_token() -> str | None:
     if not SPOTIFY_CLIENT_ID or not SPOTIFY_CLIENT_SECRET:
